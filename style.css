@@ -8,8 +8,11 @@ body {
     margin: 0 auto;
     border: solid;
     border-color: black;
-    align-content: center;
-    justify-content: center;
+    text-align: center;
+}
+
+#wrapper {
+    display: inline-block;
 }
 
 button {
@@ -21,9 +24,21 @@ button {
 #leftBottom {
     position: relative;
     float: left;
+    clear: left;
 }
 
 #rightBottom {
     position: relative;
     float: right;
+}
+
+#leftMiddle {
+    position: relative;
+    float: left;
+}
+
+#rightMiddle {
+    position: relative;
+    float: right;
+    clear: right;
 }

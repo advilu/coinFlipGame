@@ -13,7 +13,7 @@
 
     <!-- The html is done for us. -->
     <section class="holder">
-
+      <section id="wrapper">
         <h1>Flip A Coin!</h1>
         <h2>Guess Heads or Tails:</h2>
 
@@ -33,29 +33,30 @@
         <div><h3 id="win-lose"></h3></div>
 
         <div id="win-loss-tracker">
+            <section>
+              <div id="leftMiddle">
+                <h4>Wins: </h4>
+                <span id="wins"></span>
+              </div>
 
-          <div>
-            <h4>Wins: </h4>
-            <span id="wins"></span>
-          </div>
+              <div id="rightMiddle">
+                <h4>Losses: </h4>
+                <span id="losses"></span>
+              </div>
+            </section>
+            <section>
+              <div id="leftBottom">
+                <h4>Heads chosen: </h4>
+                <span id="heads-chosen"></span>
+              </div>
 
-          <div>
-            <h4>Losses: </h4>
-            <span id="losses"></span>
-          </div>
-
-          <div id="leftBottom">
-            <h4>Heads chosen: </h4>
-            <span id="heads-chosen"></span>
-          </div>
-
-          <div id="rightBottom">
-            <h4>Tails chosen: </h4>
-            <span id="tails-chosen"></span>
-          </div>
-
+              <div id="rightBottom">
+                <h4>Tails chosen: </h4>
+                <span id="tails-chosen"></span>
+              </div>
+            </section>
         </div>
-
+      </section>
     </section>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
