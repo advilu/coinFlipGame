@@ -1,0 +1,29 @@
+body {
+    background-color: darkslateblue;
+}
+
+.holder {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQOEvjAJCgLHHRmIzUxTme54cqEgjnlQFhtWxqhBVOT5N87VZw");
+    width: 50%;
+    margin: 0 auto;
+    border: solid;
+    border-color: black;
+    align-content: center;
+    justify-content: center;
+}
+
+button {
+    background-color: darkslateblue;
+    width: 50px;
+    height: 40px;
+}
+
+#leftBottom {
+    position: relative;
+    float: left;
+}
+
+#rightBottom {
+    position: relative;
+    float: right;
+}
