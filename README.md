@@ -1,0 +1,2 @@
+# coinFlipGame
+Test your luck :)
